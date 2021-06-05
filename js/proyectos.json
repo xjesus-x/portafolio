@@ -1,0 +1,74 @@
+[
+    {
+        "title":{
+            "en": "Budget",
+            "es": "Presupuesto"
+        },
+        "tecnologies": ["HTML", "CSS", "Javascript"],
+        "img": "presupuesto.png",
+        "web": "https://xjesus-x.github.io/portafolio/Proyectos/Presupuesto/index.html"
+    },
+    {
+        "title":{
+            "en": "Animated Login",
+            "es": "Logo animado"
+        },
+        "tecnologies": ["HTML", "CSS", "Javascript"],
+        "img": "login-animado.png",
+        "web": "https://xjesus-x.github.io/login-animado/"
+    },
+    {
+        "title":{
+            "en": "Cofee blog",
+            "es": "Blog de café"
+        },
+        "tecnologies": ["HTML", "CSS", "Javascript"],
+        "img": "blog-de-cafe.png",
+        "web": "https://xjesus-x.github.io/blogdecafe/"
+    },
+    {
+        "title":{
+            "en": "Programmer portfolio",
+            "es": "Portafolio de programador"
+        },
+        "tecnologies": ["HTML", "CSS"],
+        "img": "portafolio-freelancer.png",
+        "web": "https://xjesus-x.github.io/web-freelancer/"
+    },   
+    {
+        "title":{
+            "en": "Frontend store",
+            "es": "Frontend store"
+        },
+        "tecnologies": ["HTML", "CSS", "Javascript"],
+        "img": "fontend-store.png",
+        "web": "https://xjesus-x.github.io/Frontend-tienda/"
+    },
+    {
+        "title":{
+            "en": "Landing page: Gym",
+            "es": "Landing page: Gimnasio"
+        },
+        "tecnologies": ["HTML", "CSS", "Wordpress"],
+        "img": "landing-gym.png",
+        "web": "https://tienditadeprueba21.000webhostapp.com/"
+    },
+    {
+        "title":{
+            "en": "Projects porfolio",
+            "es": "Portafolio de proyectos"
+        },
+        "tecnologies": ["HTML", "CSS", "Javascript", "JSON"],
+        "img": "portafolio.png",
+        "web": "#"
+    }, 
+    {
+        "title":{
+            "en": "Landing page: Rock & EDM",
+            "es": "Landing page: Rock & EDM"
+        },
+        "tecnologies": ["HTML", "CSS", "Javascript","SASS","Gulp"],
+        "img": "festival.png",
+        "web": "https://xjesus-x.github.io/landing-festivaldemusica/"
+    }
+]

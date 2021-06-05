@@ -1,0 +1,224 @@
+:root {
+  --gradient: linear-gradient(90deg, rgb(62, 42, 63), rgb(202, 5, 202));
+}
+
+.principal {
+  margin: 0 auto;
+}
+
+header {
+  color: aliceblue;
+  text-align: center;
+  margin: 0;
+  font-family: "Noto Serif";
+}
+
+header h1 {
+  margin: 3%;
+}
+
+header button {
+  background-color: rgb(230, 235, 230);
+  text-align: center;
+  border: none;
+  border-radius: 5%;
+  margin: 1%;
+  color: rgba(3, 2, 2, 0.01);
+  font-size: small;
+}
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+#en {
+  background-image: url(https://raw.githubusercontent.com/xjesus-x/portafolio/main/img/uk.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+#es {
+  background-image: url(https://raw.githubusercontent.com/xjesus-x/portafolio/main/img/sp.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.lang {
+  background: rgb(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: flex-start;
+  opacity: 1;
+}
+
+.selected-lang {
+  background-color: rgb(55, 247, 55);
+  opacity: 0.2;
+}
+
+hr {
+  margin: 0;
+  color: black;
+  border: 0.1;
+  max-width: 90%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.7;
+}
+
+.header-contact {
+  margin: 2% 0;
+}
+
+.redes {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.red {
+  width: 40%;
+  display: flex;
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+
+.logo:hover {
+  fill: rgb(0, 0, 0);
+}
+
+.logo {
+  padding: 10%;
+}
+
+body {
+  background-color: #2b3252;
+  background: var(--gradient);
+  font-family: "Noto Serif";
+  background-size: 300%;
+  animation: body-animation 10s infinite;
+}
+
+@keyframes body-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+.menu-tecnologias {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.tecnologias {
+  margin: 1.5% 1%;
+  padding: 0.5% 3%;
+  border-radius: 0.2rem;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+}
+
+.tecnologias:hover {
+  background-color: red;
+}
+
+.proyectos {
+  max-width: 1200px;
+  width: 95%;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  min-height: 50vh;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  margin: 3%;
+  background-color: aliceblue;
+  border-radius: 0.3rem;
+  text-align: center;
+  -webkit-box-shadow: 3px 3px 11px -4px rgba(0, 0, 0, 0.89);
+  box-shadow: 3px 3px 11px -4px rgba(0, 0, 0, 0.89);
+}
+.card h3 {
+  margin: 2%;
+  align-content: center;
+}
+.card p {
+  margin: 1% 0;
+  width: 90%;
+  margin: auto;
+}
+.card p span {
+  font-weight: bold;
+}
+.card a {
+  display: block;
+  width: 90%;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 0.1rem;
+  text-decoration: none;
+  padding: 2%;
+  margin: 3% auto;
+  margin-top: 3%;
+}
+
+.card div {
+  padding-bottom: 0;
+}
+
+.card a:hover {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.card img {
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+.card img:hover {
+  opacity: 0.9;
+}
+
+footer div {
+  background-color: black;
+  margin-top: 3%;
+  color: white;
+  text-align: center;
+  padding: 1% 0;
+  font-weight: small;
+  opacity: 0.7;
+}
+footer div a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 600px) {
+  .proyectos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 850px) {
+  .proyectos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
