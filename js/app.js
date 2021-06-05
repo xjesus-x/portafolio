@@ -1,4 +1,4 @@
-const tecnologias = ["HTML", "CSS", "Javascript", "Wordpress", "JSON"];
+const tecnologias = ["SASS","HTML", "CSS", "Javascript", "Wordpress", "JSON", "Gulp"];
 
 window.onload = function () {
   //Estableciendo idioma
